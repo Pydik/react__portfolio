@@ -1,0 +1,11 @@
+.preHeader{
+    height: 48px;
+    width: 100%;
+    background-color: black;
+}
+
+.preHeader__text{
+    color: white;
+    text-align: center;
+    line-height: 45px;
+}
