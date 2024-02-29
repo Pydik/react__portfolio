@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react__portfolio/static/css/main.4b96fdab.css",
-    "main.js": "/react__portfolio/static/js/main.9cb27e27.js",
+    "main.js": "/react__portfolio/static/js/main.d107d0a7.js",
     "static/media/iphone.png": "/react__portfolio/static/media/iphone.bb7c553a152e9f74b3b8.png",
     "static/media/HAVIT HV-G92 Gamepad.png": "/react__portfolio/static/media/HAVIT HV-G92 Gamepad.505bb5fce5eab6a6a113.png",
     "static/media/IPS_LCD_Gaming_Monitor.png": "/react__portfolio/static/media/IPS_LCD_Gaming_Monitor.f6082eccc5c5bb5af6ed.png",
@@ -13,10 +13,10 @@
     "static/media/slick.woff": "/react__portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react__portfolio/index.html",
     "main.4b96fdab.css.map": "/react__portfolio/static/css/main.4b96fdab.css.map",
-    "main.9cb27e27.js.map": "/react__portfolio/static/js/main.9cb27e27.js.map"
+    "main.d107d0a7.js.map": "/react__portfolio/static/js/main.d107d0a7.js.map"
   },
   "entrypoints": [
     "static/css/main.4b96fdab.css",
-    "static/js/main.9cb27e27.js"
+    "static/js/main.d107d0a7.js"
   ]
 }
