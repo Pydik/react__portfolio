@@ -3,9 +3,8 @@
 }
 
 .list__items{
-    display: flex;
-    justify-content: space-between;
     margin-top: 40px;
+    width: 100%;
 }
 
 .item{
@@ -50,4 +49,8 @@
 
 .button__view-all{
     align-self: center;
+}
+
+.slick-slide .item__img {
+    margin: auto;
 }

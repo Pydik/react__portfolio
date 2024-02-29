@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
 import './todays.css'
-// import { todaysData } from './todaysData';
-import HAVIT_HV_G92_Gamepad from './images/HAVIT HV-G92 Gamepad.png'
-import leftArrow from '../categories/images/Left Arrow.png'
 import rightArrow from '../categories/images/Right Arrow.png'
+import leftArrow from '../categories/images/Left Arrow.png'
 import { todaysData } from './todaysData';
+import Slider from "react-slick";
+
+const settings = {
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    // autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    // nextArrow: SampleNextArrow ,
+    // prevArrow: <SamplePrevArrow />
+  };
 
 class Todays extends Component {
     render() {
+
         return (
             <div>
                 <section className='todays container'>
@@ -17,17 +28,14 @@ class Todays extends Component {
                     </div>
                     <div className='todays__box categories__box'>
                         <div className='todays__title categories__title text'>Flash Sales
-                        <div className='todays__arrow categories__arrow'>
-                            <img src={leftArrow} className='arrow__left'></img>
-                            <img src={rightArrow} className='arrow__right'></img>
-                        </div>
                         </div>
                     <div/>
                 </div>
                 <div className="todays__slider">
                     <div className="list__items">
+                    <Slider {...settings} className="list__items">
                     {todaysData.map((item) =>
-                        <div href="#" className="list__item ">
+                        <div href="#" className="list__item">
                             <a href="#" className="item__block item">
                                 <img className='item__img' src={item.img} alt="#" />
                             </a>
@@ -37,7 +45,8 @@ class Todays extends Component {
                                 <div className="price__old">{item.priceOld}</div>
                             </div>
                             <div className="item__rating"></div>
-                        </div>)}
+                        </div>)}  
+                    </Slider>
                     </div>
                 </div>
                 <div className='todays_button'>
@@ -48,5 +57,6 @@ class Todays extends Component {
         );
     }
 }
+
 
 export default Todays;
