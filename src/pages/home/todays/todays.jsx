@@ -9,11 +9,9 @@ const settings = {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
-    // nextArrow: SampleNextArrow ,
-    // prevArrow: <SamplePrevArrow />
   };
 
 class Todays extends Component {
