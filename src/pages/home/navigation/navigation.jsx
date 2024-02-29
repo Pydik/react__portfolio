@@ -4,9 +4,22 @@ import iphone from './images/iphone.png'
 import logo from './images/Apple_gray_logo.png'
 import rightArrow from './images/icons arrow-right.png'
 import { navigationData } from './navigationData';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+  };
 
 class Navigation extends Component {
     render() {
+
         return (
             <div className='navigation container text'>
                 <nav className='nav__list'>
@@ -22,13 +35,17 @@ class Navigation extends Component {
                         <a className="nav__text text" href='#'><li>Health & Beauty</li></a>
                     </ul>
                 </nav>
-                <div className='nav__slider'>
+                <Slider {...settings} className='nav__slider '
+                slick-arrow={null}
+                >
+                {navigationData.map((item) => 
+                <a href='#' className='nav__slider'>
                     <div className='slider__text'>
                         <div className='slider__title text'>
                             <img src={logo}></img>
-                            <p>iPhone 14 Series</p>
+                            <p>{item.title}</p>
                         </div>
-                        <div className='slider__description text'>Up to 10% off Voucher</div>                        
+                        <div className='slider__description text'>{item.description}</div>                        
                         <a className='slider__link text' href='#'>
                         <div >Shop Now
                             <img src={rightArrow}></img>
@@ -36,9 +53,11 @@ class Navigation extends Component {
                         </a>
                     </div>
                     <div className='slider__img'>
-                        <img src={iphone} alt='#'></img>
+                        <img src={item.img} alt='#'></img>
                     </div>
-                </div>
+                </a>)}
+                
+                </Slider>
             </div>
         );
     }
