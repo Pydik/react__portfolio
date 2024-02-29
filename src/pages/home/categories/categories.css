@@ -1,4 +1,4 @@
-.note{
+.note {
     width: 20px;
     height: 40px;
     background-color: red;
@@ -6,20 +6,20 @@
     margin-right: 16px;
 }
 
-.categories__name{
+.categories__name {
     display: flex;
     font-weight: 600;
     color: red;
     align-items: center;
 }
 
-.categories{
+.categories {
     margin-top: 90px;
     padding-bottom: 70px;
     border-bottom: 1px solid black;
 }
 
-.categories__title{
+.categories__title {
     display: flex;
     justify-content: space-between;
     font-size: 36px;
@@ -27,21 +27,21 @@
     margin-top: 20px;
 }
 
-.categories__select{
+.categories__select {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.categories__arrow{
+.categories__arrow {
     cursor: pointer;
 }
 
-.arrow__left{
+.arrow__left {
     margin-right: 8px;
 }
 
-.categories__item-box{
+.categories__item-box {
     height: 145px;
     width: 170px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -53,26 +53,26 @@
     padding: 15px 0px 10px 0px;
 }
 
-.item__title{
+.item__title {
     font-weight: 500;
     margin-top: 16px;
 }
 
-.item__price{
+.item__price {
     font-weight: 500;
 }
 
-.item-box__img{
+.item-box__img {
     height: 56px;
     width: 56px;
 }
 
-.active{
+.active {
     background-color: red;
     color: white;
 }
 
-.slick-slider .slick-prev{
+.slick-slider .slick-prev {
     background-color: white;
     background-image: url('../categories/images/Left Arrow.png');
     height: 46px;
@@ -81,7 +81,7 @@
     left: 1070px;
 }
 
-.slick-slider .slick-next{
+.slick-slider .slick-next {
     background-color: white;
     background-image: url('../categories/images/Right Arrow.png');
     height: 46px;

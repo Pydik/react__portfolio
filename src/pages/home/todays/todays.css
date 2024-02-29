@@ -1,53 +1,53 @@
-.todays{
+.todays {
     margin-top: 90px;
 }
 
-.list__items{
+.list__items {
     margin-top: 40px;
     width: 100%;
 }
 
-.item{
+.item {
     display: inline-block;
     text-align: center;
     padding-top: 35px;
     width: 270px;
     height: 250px;
     border-radius: 4px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
 
-.item__price{
+.item__price {
     display: flex;
     gap: 12px;
 }
 
-.price__new{
-    color: #DB4444;
+.price__new {
+    color: #db4444;
 }
 
-.price__old{
-    color: #7D8184;
+.price__old {
+    color: #7d8184;
     text-decoration: line-through;
 }
 
-.btn{
+.btn {
     width: 234px;
     height: 56px;
     border-radius: 4px;
-    background-color: #DB4444;
+    background-color: #db4444;
     text-align: center;
     color: white;
     align-self: center;
 }
 
-.todays_button{
+.todays_button {
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
 
-.button__view-all{
+.button__view-all {
     align-self: center;
 }
 
