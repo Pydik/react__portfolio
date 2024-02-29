@@ -1,0 +1,53 @@
+.todays{
+    margin-top: 90px;
+}
+
+.list__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.item{
+    display: inline-block;
+    text-align: center;
+    padding-top: 35px;
+    width: 270px;
+    height: 250px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+
+.item__price{
+    display: flex;
+    gap: 12px;
+}
+
+.price__new{
+    color: #DB4444;
+}
+
+.price__old{
+    color: #7D8184;
+    text-decoration: line-through;
+}
+
+.btn{
+    width: 234px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+
+.todays_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.button__view-all{
+    align-self: center;
+}

@@ -57,8 +57,9 @@
 .slider__link{
     color: white;
     font-weight: 500;
+    display: flex;
+    width: 100%;
     position: absolute;
-    display: inline-block
 }
 
 .slider__link img{
@@ -74,14 +75,14 @@
     right: 600px;
 }
 
-.slider__link::after{
+.slider__link  div::after{
     content: "";
     display: block;
-    width: 70%;
+    width: 9%;
     height: 1px;
     background-color: white;
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     left: 0;
 }
 

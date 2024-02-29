@@ -14,7 +14,7 @@ const settings = {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
   };
 
 class Navigation extends Component {
@@ -47,7 +47,7 @@ class Navigation extends Component {
                         </div>
                         <div className='slider__description text'>{item.description}</div>                        
                         <a className='slider__link text' href='#'>
-                        <div >Shop Now
+                        <div className='slider__link'>Shop Now
                             <img src={rightArrow}></img>
                         </div>
                         </a>
