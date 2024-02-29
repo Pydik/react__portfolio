@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Pydik.github.io/react__portfolio/static/css/main.1fa80868.css",
-    "main.js": "/Pydik.github.io/react__portfolio/static/js/main.39fb9492.js",
-    "static/media/iphone.png": "/Pydik.github.io/react__portfolio/static/media/iphone.bb7c553a152e9f74b3b8.png",
-    "static/media/HAVIT HV-G92 Gamepad.png": "/Pydik.github.io/react__portfolio/static/media/HAVIT HV-G92 Gamepad.505bb5fce5eab6a6a113.png",
-    "static/media/IPS_LCD_Gaming_Monitor.png": "/Pydik.github.io/react__portfolio/static/media/IPS_LCD_Gaming_Monitor.f6082eccc5c5bb5af6ed.png",
-    "static/media/AK_900_Wired_Keyboard.png": "/Pydik.github.io/react__portfolio/static/media/AK_900_Wired_Keyboard.33640495e048f980f5f9.png",
-    "static/media/S_Series_Comfort_Chair .png": "/Pydik.github.io/react__portfolio/static/media/S_Series_Comfort_Chair .5fa6912ebe7a9341461b.png",
-    "static/media/slick.svg": "/Pydik.github.io/react__portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Pydik.github.io/react__portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Pydik.github.io/react__portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Pydik.github.io/react__portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Pydik.github.io/react__portfolio/index.html",
-    "main.1fa80868.css.map": "/Pydik.github.io/react__portfolio/static/css/main.1fa80868.css.map",
-    "main.39fb9492.js.map": "/Pydik.github.io/react__portfolio/static/js/main.39fb9492.js.map"
+    "main.css": "/react__portfolio/static/css/main.4b96fdab.css",
+    "main.js": "/react__portfolio/static/js/main.d107d0a7.js",
+    "static/media/iphone.png": "/react__portfolio/static/media/iphone.bb7c553a152e9f74b3b8.png",
+    "static/media/HAVIT HV-G92 Gamepad.png": "/react__portfolio/static/media/HAVIT HV-G92 Gamepad.505bb5fce5eab6a6a113.png",
+    "static/media/IPS_LCD_Gaming_Monitor.png": "/react__portfolio/static/media/IPS_LCD_Gaming_Monitor.f6082eccc5c5bb5af6ed.png",
+    "static/media/AK_900_Wired_Keyboard.png": "/react__portfolio/static/media/AK_900_Wired_Keyboard.33640495e048f980f5f9.png",
+    "static/media/S_Series_Comfort_Chair .png": "/react__portfolio/static/media/S_Series_Comfort_Chair .5fa6912ebe7a9341461b.png",
+    "static/media/slick.svg": "/react__portfolio/static/media/slick.7ba97953187dc2907930.svg",
+    "static/media/slick.eot": "/react__portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react__portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react__portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react__portfolio/index.html",
+    "main.4b96fdab.css.map": "/react__portfolio/static/css/main.4b96fdab.css.map",
+    "main.d107d0a7.js.map": "/react__portfolio/static/js/main.d107d0a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fa80868.css",
-    "static/js/main.39fb9492.js"
+    "static/css/main.4b96fdab.css",
+    "static/js/main.d107d0a7.js"
   ]
 }
