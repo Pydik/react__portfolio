@@ -71,21 +71,3 @@
     background-color: red;
     color: white;
 }
-
-.slick-slider .slick-prev {
-    background-color: white;
-    background-image: url('../categories/images/Left Arrow.png');
-    height: 46px;
-    width: 46px;
-    top: -73px;
-    left: 1070px;
-}
-
-.slick-slider .slick-next {
-    background-color: white;
-    background-image: url('../categories/images/Right Arrow.png');
-    height: 46px;
-    width: 46px;
-    top: -73px;
-    left: 1125px;
-}

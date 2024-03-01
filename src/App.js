@@ -6,6 +6,7 @@ import Header from './pages/home/header/header.jsx';
 import Navigation from './pages/home/navigation/navigation.jsx';
 import Categories from './pages/home/categories/categories.jsx';
 import Todays from './pages/home/todays/todays.jsx';
+import Footer from './pages/home/footer/footer.jsx';
 
 function App() {
     return (
@@ -15,6 +16,8 @@ function App() {
             <Navigation />
             <Todays />
             <Categories />
+            <Footer />
+            <PreHeader />
         </div>
     );
 }

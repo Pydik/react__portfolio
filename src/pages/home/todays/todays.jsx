@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './todays.css';
-import rightArrow from '../categories/images/Right Arrow.png';
-import leftArrow from '../categories/images/Left Arrow.png';
+import heart from './images/Heart.png';
 import { todaysData } from './todaysData';
 import Slider from 'react-slick';
 
@@ -9,7 +8,7 @@ const settings = {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    //autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true
 };
@@ -34,6 +33,7 @@ class Todays extends Component {
                                     <div href="#" className="list__item">
                                         <a href="#" className="item__block item">
                                             <img className="item__img" src={item.img} alt="#" />
+                                            <img className="img__heart" src={heart} alt="" />
                                         </a>
                                         <div className="item__title text">{item.title}</div>
                                         <div className="item__price text">

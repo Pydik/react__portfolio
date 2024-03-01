@@ -1,0 +1,27 @@
+.footer {
+    background-color: black;
+    margin-top: 140px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__block {
+    margin-bottom: 60px;
+    color: white;
+    padding-top: 80px;
+}
+
+.block__title {
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block__text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
