@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
 import './todays.css';
-import heart from './images/Heart.png';
-import { todaysData } from './todaysData';
-import Slider from 'react-slick';
 
-const settings = {
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    //autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true
-};
+import TodaysSlider from './components/todaysSlider';
 
 class Todays extends Component {
     render() {
@@ -28,22 +18,7 @@ class Todays extends Component {
                     </div>
                     <div className="todays__slider">
                         <div className="list__items">
-                            <Slider {...settings} className="list__items">
-                                {todaysData.map(item => (
-                                    <div href="#" className="list__item">
-                                        <a href="#" className="item__block item">
-                                            <img className="item__img" src={item.img} alt="#" />
-                                            <img className="img__heart" src={heart} alt="" />
-                                        </a>
-                                        <div className="item__title text">{item.title}</div>
-                                        <div className="item__price text">
-                                            <div className="price__new">{item.priceNew}</div>
-                                            <div className="price__old">{item.priceOld}</div>
-                                        </div>
-                                        <div className="item__rating"></div>
-                                    </div>
-                                ))}
-                            </Slider>
+                            <TodaysSlider />
                         </div>
                     </div>
                     <div className="todays_button">

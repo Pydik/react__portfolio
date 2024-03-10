@@ -1,0 +1,29 @@
+.wishlist {
+    margin-top: 80px;
+}
+
+.wishlist__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishlist__text {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wishlist__button {
+    width: 234px;
+    height: 56px;
+    border-radius: 4px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+    align-self: center;
+    background-color: white;
+}

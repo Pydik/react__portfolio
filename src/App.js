@@ -1,23 +1,20 @@
 import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+
+import Wishlist from './pages/wishlist/components/wishlist.jsx';
+import HomePage from './pages/home/homePage.jsx';
 //import './App.css';
 import './reset.css';
-import PreHeader from './pages/home/preHeader/preHeader.jsx';
-import Header from './pages/home/header/header.jsx';
-import Navigation from './pages/home/navigation/navigation.jsx';
-import Categories from './pages/home/categories/categories.jsx';
-import Todays from './pages/home/todays/todays.jsx';
-import Footer from './pages/home/footer/footer.jsx';
+import ItemDetails from './pages/productDetails/components/itemDetails.jsx';
 
 function App() {
     return (
         <div className="App">
-            <PreHeader />
-            <Header />
-            <Navigation />
-            <Todays />
-            <Categories />
-            <Footer />
-            <PreHeader />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="wishlist" element={<Wishlist />} />
+                <Route path="/item/:id" element={<ItemDetails />} />
+            </Routes>
         </div>
     );
 }

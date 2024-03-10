@@ -6,11 +6,15 @@
 .footer__content {
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .content__block {
+    font-family: poppins;
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
     margin-bottom: 60px;
-    color: white;
     padding-top: 80px;
 }
 
